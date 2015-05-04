@@ -78,6 +78,19 @@ h6{
     padding-top:30px;
 }
 
+@media(max-width:767px) {
+    h1{
+        font-size:40px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 22px;
+        line-height:26px;
+    }
+}
+
 /*Header*/
 
 .header-logo{
@@ -114,6 +127,8 @@ h6{
     .call{
         font-weight:600;
         font-size: 20px;
+        text-align:center;
+        padding-top:20px;
     }
 
     .number{
@@ -122,6 +137,7 @@ h6{
         color: #e01d3d;
         line-height: 7px;
         padding-bottom:10px;
+        text-align:center;
     }
 }
 
@@ -152,10 +168,11 @@ h6{
 @media(max-width:767px) {
     .gray-text{
         padding-top:10px;
+        padding-bottom:20px;
         
     }
     
-    .elena-section{
+    /*.elena-section{
         margin-bottom:240px;
     }
     
@@ -164,13 +181,20 @@ h6{
         width:175px;
         left: 100px;
         vertical-align: bottom;
-    }
+    }*/
 }
 
 /*Three Sections*/
 
 .three-sections{
     margin-top:40px;
+}
+
+@media(max-width:767px) {
+    .three-sections{
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
 }
 
 /*Quote*/
