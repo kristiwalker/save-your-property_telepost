@@ -75,10 +75,12 @@ h6{
     letter-spacing:0.5px;
     color: #e01d3d;
     text-align:center;
-    padding-top:30px;
 }
 
 @media(max-width:767px) {
+    p{
+        font-size:15px;
+    }
     h1{
         font-size:40px;
     }
@@ -91,7 +93,13 @@ h6{
     }
 }
 
+
+
+
 /*Header*/
+
+
+
 
 .header-logo{
     position:relative;
@@ -141,7 +149,13 @@ h6{
     }
 }
 
+
+
+
 /*Act Now*/
+
+
+
 
 
 .act-now{
@@ -150,15 +164,29 @@ h6{
     padding: 20px 0 20px 0;
 }
 
+
+
+
 /*Gray Section*/
+
+
+
 
 .gray-section{
     background-color: #f2f2f2;
 }
 
+.img{
+    vertical-align: middle;
+}
+
 .elena{
-    width:90%;
-    vertical-align: bottom;
+    display: inline-block;
+    height:100%;
+    width:100%;
+    min-width:250px;
+    max-width:300px;
+    vertical-align: middle;
 }
 
 .gray-text{
@@ -171,20 +199,17 @@ h6{
         padding-bottom:20px;
         
     }
-    
-    /*.elena-section{
-        margin-bottom:240px;
-    }
-    
-    .elena{
-        position:absolute;
-        width:175px;
-        left: 100px;
-        vertical-align: bottom;
-    }*/
 }
 
+
+
+
+
 /*Three Sections*/
+
+
+
+
 
 .three-sections{
     margin-top:40px;
@@ -197,7 +222,13 @@ h6{
     }
 }
 
+
+
+
 /*Quote*/
+
+
+
 
 .quote-section{
     background-color: #333333;
@@ -243,10 +274,51 @@ blockquote cite:before {
 content: "\2014 \2009";
 }
 
+@media(max-width:767px) {
+    blockquote {
+        font-family:'MyriadPro', arial, sans-serif;
+        font-size: 15px;
+        font-style: italic;
+        width: 100%;
+        margin: 0.25em 0;
+        padding: 30px 0px 30px 40px;
+        line-height: 1.45;
+        position: relative;
+        color: white;
+        border:none;
+    }
+    
+    blockquote:before {
+        font-family: Georgia, serif;
+        display: block;
+        content: "\201C";
+        font-size: 80px;
+        position: absolute;
+        left: -10px;
+        top: 5px;
+        color: #e01d3d;
+    }
+    
+    blockquote cite {
+        font-family:'MyriadPro', arial, sans-serif;
+        font-weight:600;
+        font-style:normal;
+        letter-spacing: 0.5px;
+        color: white;
+        font-size: 15px;
+        display: block;
+        margin-top: 13px;
+    }
+}
+
+
+
 /*Testimonials*/
 
+
+
 .testimonials-section{
-    padding-top:20px;
+    padding-top:30px;
     background-color: #f2f2f2;
     padding-bottom: 40px;
 }
@@ -256,7 +328,22 @@ content: "\2014 \2009";
     letter-spacing: 0.5px;
 }
 
+@media(max-width:767px) {
+    .testimonials-section{
+        padding-top:0px;
+    }
+    .testimonials-section{
+        padding-top:20px;
+        background-color: #f2f2f2;
+        padding-bottom: 10px;
+    }
+}
+
+
 /*footer*/
+
+
+
 
 .footer-section{
     text-align:center;
@@ -267,4 +354,13 @@ content: "\2014 \2009";
 .footer-call{
     font-weight: 600;
     letter-spacing: 0.7px;
+}
+
+@media(max-width:767px) {
+    .footer-call{
+        font-size: 18px;
+        line-height:20px;
+        letter-spacing: 0.7px;
+        padding-bottom:5px;
+    }
 }
