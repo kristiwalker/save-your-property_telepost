@@ -100,6 +100,20 @@ h6{
 }
 
 
+@media(max-width:200px) {
+    h1{
+        font-size:20px;
+        letter-spacing: 0.5px;
+    }
+    h2{
+        font-size: 17px;
+    }
+    h3{
+        font-size: 15px;
+        line-height:17px;
+    }
+}
+
 
 
 /*Header*/
@@ -148,6 +162,35 @@ h6{
     .number{
         font-weight:600;
         font-size:30px;
+        color: #e01d3d;
+        line-height: 7px;
+        padding-bottom:10px;
+        text-align:center;
+    }
+}
+
+@media(max-width:240px) {
+    .call{
+        font-weight:600;
+        font-size: 18px;
+        text-align:center;
+        padding-top:20px;
+    }
+    .number{
+        font-weight:600;
+        font-size:25px;
+        color: #e01d3d;
+        line-height: 7px;
+        padding-bottom:10px;
+        text-align:center;
+    }
+}
+
+@media(max-width:200px) {
+
+    .number{
+        font-weight:600;
+        font-size:15px;
         color: #e01d3d;
         line-height: 7px;
         padding-bottom:10px;
@@ -329,6 +372,32 @@ content: "\2014 \2009";
         font-size: 15px;
         display: block;
         margin-top: 13px;
+    }
+}
+
+@media(max-width:200px) {
+    blockquote {
+        font-family:'MyriadPro', arial, sans-serif;
+        font-size: 13px;
+        font-style: italic;
+        width: 100%;
+        margin: 0.25em 0;
+        padding: 30px 0px 30px 30px;
+        line-height: 1.45;
+        position: relative;
+        color: white;
+        border:none;
+    }
+   
+    blockquote:before {
+        font-family: Georgia, serif;
+        display: block;
+        content: "\201C";
+        font-size: 60px;
+        position: absolute;
+        left: -10px;
+        top: 5px;
+        color: #e01d3d;
     }
 }
 
